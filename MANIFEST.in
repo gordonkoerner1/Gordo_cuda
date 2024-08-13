@@ -1,0 +1,4 @@
+include cusolver_module.pyx
+include cusparse_module.pyx
+#include cusparse_helpers.c
+#include cusparse_helpers.pxd
