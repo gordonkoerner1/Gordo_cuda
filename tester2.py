@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.sparse as sp
 import cupy as cp
-from Gordon_library.cusparse_module import solve_geam
+from Gordo_cuda.cusparse_module import solve_geam
 
 def sort_csr(matrix):
     row_start = 0
