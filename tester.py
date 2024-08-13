@@ -3,7 +3,7 @@ import scipy.sparse as sp
 from scipy.sparse import diags
 import cupy as cp
 import cupyx.scipy.sparse.linalg as cupy_linalg
-from Gordon_library.cusolver_module import solve_cholesky
+from Gordo_cuda.cusolver_module import solve_cholesky
 
 # Parameters
 np.random.seed(69420) #some random seeds produce a row singularity and break stuff
